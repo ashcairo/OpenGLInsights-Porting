@@ -1,0 +1,6 @@
+.DS_Store
+*.o
+*.db
+*.suo
+*.user*
+*.d
