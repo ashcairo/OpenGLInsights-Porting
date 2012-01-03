@@ -16,7 +16,6 @@
 #include <QGesture>
 
 #include "CCGLView.h"
-#include "CCDeviceControls.h"
 
 
 CCGLView::CCGLView(QWidget *parent) :
@@ -65,7 +64,6 @@ void CCGLView::resizeGL(int width, int height)
 {
     gEngine->renderer->setupScreenSizeParams();
     gEngine->renderer->setOrientation( 0.0f, true );
-    gEngine->refreshCameras();
 }
 
 
@@ -117,81 +115,20 @@ void CCGLView::shutdown()
 
 bool CCGLView::event(QEvent *event)
 {
-    if( gEngine != NULL )
-    {
-        CCDeviceControls *controls = (CCDeviceControls*)gEngine->controls;
-
-        QEvent::Type eventType = event->type();
-        if( eventType != QEvent::Paint &&
-            eventType != QEvent::UpdateLater &&
-            eventType != QEvent::WindowActivate  &&
-            eventType != QEvent::WindowDeactivate  &&
-            eventType != QEvent::Enter &&
-            eventType != QEvent::Leave &&
-            eventType != QEvent::ToolTip )
-        {
-            if( eventType == QEvent::TouchBegin )
-            {
-                handlingTouchEvent = true;
-                event->accept();
-                QTouchEvent *touchEvent = static_cast<QTouchEvent*>( event );
-                controls->touchBegin( touchEvent->touchPoints() );
-                return true;
-            }
-            else if( eventType == QEvent::TouchUpdate )
-            {
-                event->accept();
-                QTouchEvent *touchEvent = static_cast<QTouchEvent*>( event );
-                controls->touchMove( touchEvent->touchPoints() );
-                return true;
-            }
-            else if( eventType == QEvent::TouchEnd )
-            {
-                event->accept();
-                QTouchEvent *touchEvent = static_cast<QTouchEvent*>( event );
-                controls->touchEnd( touchEvent->touchPoints() );
-
-                handlingTouchEvent = false;
-                return true;
-            }
-        }
-    }
     return QGLWidget::event( event );
 }
 
 
-static UITouch mouseTouch;
 void CCGLView::mousePressEvent(QMouseEvent* event)
 {
-    CCDeviceControls *controls = (CCDeviceControls*)gEngine->controls;
-    if( handlingTouchEvent == false )
-    {
-        QPointF posf = event->posF();
-        mouseTouch.pos = CCPoint( posf.x(), posf.y() );
-        controls->touchBegin( &mouseTouch );
-    }
 }
 
 
 void CCGLView::mouseMoveEvent(QMouseEvent* event)
 {
-    CCDeviceControls *controls = (CCDeviceControls*)gEngine->controls;
-    if( handlingTouchEvent == false )
-    {
-        QPointF posf = event->posF();
-        mouseTouch.pos = CCPoint( posf.x(), posf.y() );
-        controls->touchMove( &mouseTouch );
-    }
 }
 
 
 void CCGLView::mouseReleaseEvent(QMouseEvent* event)
 {
-    CCDeviceControls *controls = (CCDeviceControls*)gEngine->controls;
-    if( handlingTouchEvent == false )
-    {
-        QPointF posf = event->posF();
-        mouseTouch.pos = CCPoint( posf.x(), posf.y() );
-        controls->touchEnd( &mouseTouch );
-    }
 }
