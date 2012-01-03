@@ -63,20 +63,7 @@ class CCGLViewJNI extends GLSurfaceView
     {
     	super.onResume();
     	resuming = true;
-    }
-    
-    public boolean onTouchEvent(final MotionEvent event) 
-    {
-    	int action = event.getAction() & MotionEvent.ACTION_MASK;
-    	int index = ( event.getAction() & MotionEvent.ACTION_POINTER_INDEX_MASK ) >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;
-    	int finger = event.getPointerId( index );
-    	float x = event.getX();
-    	float y = event.getY();
-    	
-		CCJNI.controlsHandleTouch( x, y, action, finger );
-        return true;
-    }
-    
+    }  
 
     private static class Renderer implements GLSurfaceView.Renderer 
     {
