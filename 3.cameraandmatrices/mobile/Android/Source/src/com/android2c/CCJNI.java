@@ -77,12 +77,6 @@ public class CCJNI
 	{
 		CCGLTexture.releaseRawData();
 	}
-
-	
-	// CCDeviceControls
-	public static native void controlsHandleTouch(float x, float y, int actionType, int finger);
-
-	public static native boolean controlsHandleBackButton();
 	
 	
 	// CCDeviceFileManager

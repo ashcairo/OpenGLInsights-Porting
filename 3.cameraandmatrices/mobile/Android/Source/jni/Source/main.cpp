@@ -14,7 +14,6 @@
 #include "CCDefines.h"
 #include "CCAppEngine.h"
 #include "CCGLView.h"
-#include "CCDeviceControls.h"
 #include "CCDeviceURLManager.h"
 
 #include "CCViewManager.h"

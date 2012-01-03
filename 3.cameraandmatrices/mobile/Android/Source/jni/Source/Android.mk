@@ -44,7 +44,6 @@ LOCAL_SRC_FILES := \
                 Rendering/CCDeviceRenderer.cpp \
                 Rendering/CCTexturePNG.cpp \
 \
-                Tools/CCDeviceControls.cpp \
                 Tools/CCDeviceFileManager.cpp \
                 Tools/CCDeviceURLManager.cpp \
 \
@@ -58,7 +57,6 @@ LOCAL_SRC_FILES := \
                 ../../../../Engine/Source/Objects/CCSceneObject.cpp \
                 ../../../../Engine/Source/Objects/CCTile3D.cpp \
                 ../../../../Engine/Source/Objects/CCTile3DButton.cpp \
-                ../../../../Engine/Source/Objects/CCTile3DScrollBar.cpp \
 \
                 ../../../../Engine/Source/Rendering/CCMatrix.cpp \
                 ../../../../Engine/Source/Rendering/CCModelBase.cpp \
@@ -81,7 +79,6 @@ LOCAL_SRC_FILES := \
                 ../../../../Engine/Source/Tools/CCCameraAppUI.cpp \
                 ../../../../Engine/Source/Tools/CCCameraBase.cpp \
                 ../../../../Engine/Source/Tools/CCCollisionTools.cpp \
-                ../../../../Engine/Source/Tools/CCControls.cpp \
                 ../../../../Engine/Source/Tools/CCFileManager.cpp \
                 ../../../../Engine/Source/Tools/CCMathTools.cpp \
                 ../../../../Engine/Source/Tools/CCOctree.cpp \
