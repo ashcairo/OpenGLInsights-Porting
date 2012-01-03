@@ -708,7 +708,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				SYMROOT = "~/Development/iOS/build/${EXECUTABLE_NAME}";
+				SYMROOT = "~/Dev/iOS/build/${EXECUTABLE_NAME}";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -765,7 +765,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				STRIP_INSTALLED_PRODUCT = YES;
-				SYMROOT = "~/Development/iOS/build/${EXECUTABLE_NAME}";
+				SYMROOT = "~/Dev/iOS/build/${EXECUTABLE_NAME}";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -846,7 +846,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				STRIP_INSTALLED_PRODUCT = YES;
-				SYMROOT = "~/Development/iOS/build/${EXECUTABLE_NAME}";
+				SYMROOT = "~/Dev/iOS/build/${EXECUTABLE_NAME}";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
