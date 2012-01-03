@@ -14,13 +14,11 @@ SOURCES 	+=  \
                 ../Source/main.cpp \
                 ../Source/CCGLView.cpp \
                 ../Source/CCMainWindow.cpp \
-                ../Source/CCFBWebView.cpp \
                 ../Source/CCVideoView.cpp \
                 ../Source/CCPlatform.cpp \
                 ../Source/CCRenderThread.cpp \
                 ../Source/Rendering/CCDeviceRenderer.cpp \
                 ../Source/Rendering/CCTexturePNG.cpp \
-                ../Source/Tools/CCDeviceControls.cpp \
                 ../Source/Tools/CCDeviceFileManager.cpp \
                 ../Source/Tools/CCDeviceURLManager.cpp \
 \
@@ -35,7 +33,6 @@ SOURCES 	+=  \
                 ../../Engine/Source/Objects/CCSceneObject.cpp \
                 ../../Engine/Source/Objects/CCTile3D.cpp \
                 ../../Engine/Source/Objects/CCTile3DButton.cpp \
-                ../../Engine/Source/Objects/CCTile3DScrollBar.cpp \
 \
                 ../../Engine/Source/Rendering/CCMatrix.cpp \
                 ../../Engine/Source/Rendering/CCModelBase.cpp \
@@ -58,7 +55,6 @@ SOURCES 	+=  \
                 ../../Engine/Source/Tools/CCCameraAppUI.cpp \
                 ../../Engine/Source/Tools/CCCameraBase.cpp \
                 ../../Engine/Source/Tools/CCCollisionTools.cpp \
-                ../../Engine/Source/Tools/CCControls.cpp \
                 ../../Engine/Source/Tools/CCFileManager.cpp \
                 ../../Engine/Source/Tools/CCMathTools.cpp \
                 ../../Engine/Source/Tools/CCOctree.cpp \
@@ -85,13 +81,11 @@ INCLUDEPATH     +=  ../Source \
 HEADERS  	+= \
                 ../Source/CCGLView.h \
                 ../Source/CCMainWindow.h \
-                ../Source/CCFBWebView.h \
                 ../Source/CCVideoView.h \
                 ../Source/CCPlatform.h \
                 ../Source/CCRenderThread.h \
                 ../Source/Rendering/CCDeviceRenderer.h \
                 ../Source/Rendering/CCTexturePNG.h \
-                ../Source/Tools/CCDeviceControls.h \
                 ../Source/Tools/CCDeviceFileManager.h \
                 ../Source/Tools/CCDeviceURLManager.h \
 \
@@ -107,7 +101,6 @@ HEADERS  	+= \
                 ../../Engine/Source/Objects/CCSceneObject.h \
                 ../../Engine/Source/Objects/CCTile3D.h \
                 ../../Engine/Source/Objects/CCTile3DButton.h \
-                ../../Engine/Source/Objects/CCTile3DScrollBar.h \
 \
                 ../../Engine/Source/Rendering/CCMatrix.h \
                 ../../Engine/Source/Rendering/CCModelBase.h \
@@ -132,7 +125,6 @@ HEADERS  	+= \
                 ../../Engine/Source/Tools/CCCameraAppUI.h \
                 ../../Engine/Source/Tools/CCCameraBase.h \
                 ../../Engine/Source/Tools/CCCollisionTools.h \
-                ../../Engine/Source/Tools/CCControls.h \
                 ../../Engine/Source/Tools/CCFileManager.h \
                 ../../Engine/Source/Tools/CCMathTools.h \
                 ../../Engine/Source/Tools/CCOctree.h \

@@ -114,16 +114,15 @@ void CCCameraAppUI::setCameraHeight(const float inHeight)
 
 void CCCameraAppUI::refreshCameraSize()
 {
-    CCVector3 &currentOffset = currentOffsetTarget.current;
     if( gEngine->renderer->isPortrait() )
     {
-        cameraWidth = currentOffset.z * getFrustumSize().width;
-        cameraHeight = currentOffset.z * getFrustumSize().height;
+        cameraWidth = targetOffset.z * getFrustumSize().width;
+        cameraHeight = targetOffset.z * getFrustumSize().height;
     }
     else
     {
-        cameraWidth = currentOffset.z * getFrustumSize().height;
-        cameraHeight = currentOffset.z * getFrustumSize().width;
+        cameraWidth = targetOffset.z * getFrustumSize().height;
+        cameraHeight = targetOffset.z * getFrustumSize().width;
     }
     
     cameraHWidth = cameraWidth * 0.5f;
