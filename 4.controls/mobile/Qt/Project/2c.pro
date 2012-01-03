@@ -1,7 +1,7 @@
 # CCRELEASE: Remove for release
 debug:DEFINES += DEBUGON
 
-QT              += opengl network webkit network script phonon
+QT              += opengl network network script phonon
 TARGET 		 = 2c
 TEMPLATE 	 = app
 
@@ -14,7 +14,6 @@ SOURCES 	+=  \
                 ../Source/main.cpp \
                 ../Source/CCGLView.cpp \
                 ../Source/CCMainWindow.cpp \
-                ../Source/CCFBWebView.cpp \
                 ../Source/CCVideoView.cpp \
                 ../Source/CCPlatform.cpp \
                 ../Source/CCRenderThread.cpp \
@@ -85,7 +84,6 @@ INCLUDEPATH     +=  ../Source \
 HEADERS  	+= \
                 ../Source/CCGLView.h \
                 ../Source/CCMainWindow.h \
-                ../Source/CCFBWebView.h \
                 ../Source/CCVideoView.h \
                 ../Source/CCPlatform.h \
                 ../Source/CCRenderThread.h \
