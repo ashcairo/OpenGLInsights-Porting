@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4AD7E7431454804E00035814 /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		4AD7E7461454804E00035814 /* CCAppEngine.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCAppEngine.js; sourceTree = "<group>"; };
+		4AD7E7471454804E00035814 /* SceneSocialBackground.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SceneSocialBackground.js; sourceTree = "<group>"; };
+		4AD7E7481454804E00035814 /* SceneSocialFriends.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SceneSocialFriends.js; sourceTree = "<group>"; };
+		4AD7E7491454804E00035814 /* SceneSocialLogin.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SceneSocialLogin.js; sourceTree = "<group>"; };
+		4AD7E74A1454804E00035814 /* TileSocial.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = TileSocial.js; sourceTree = "<group>"; };
+		4AD7E74B1454804E00035814 /* TileSocialProfile.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = TileSocialProfile.js; sourceTree = "<group>"; };
+		4AD7E74C1454804E00035814 /* components.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = components.js; sourceTree = "<group>"; };
+		4AD7E74E1454804E00035814 /* CCEngine.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCEngine.js; sourceTree = "<group>"; };
+		4AD7E7501454804E00035814 /* CCRenderable.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCRenderable.js; sourceTree = "<group>"; };
+		4AD7E7511454804E00035814 /* CCTile3D.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCTile3D.js; sourceTree = "<group>"; };
+		4AD7E7521454804E00035814 /* CCTile3DButton.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCTile3DButton.js; sourceTree = "<group>"; };
+		4AD7E7541454804E00035814 /* CCModelBase.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCModelBase.js; sourceTree = "<group>"; };
+		4AD7E7551454804E00035814 /* CCModelText.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCModelText.js; sourceTree = "<group>"; };
+		4AD7E7561454804E00035814 /* CCPrimitiveBase.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCPrimitiveBase.js; sourceTree = "<group>"; };
+		4AD7E7571454804E00035814 /* CCPrimitiveSquare.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCPrimitiveSquare.js; sourceTree = "<group>"; };
+		4AD7E7581454804E00035814 /* CCRenderer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCRenderer.js; sourceTree = "<group>"; };
+		4AD7E7591454804E00035814 /* CCTextureFontPageFile.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCTextureFontPageFile.js; sourceTree = "<group>"; };
+		4AD7E75A1454804E00035814 /* CCTextureManager.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCTextureManager.js; sourceTree = "<group>"; };
+		4AD7E75C1454804E00035814 /* CCSceneAppUI.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCSceneAppUI.js; sourceTree = "<group>"; };
+		4AD7E75D1454804E00035814 /* CCSceneBase.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCSceneBase.js; sourceTree = "<group>"; };
+		4AD7E75F1454804E00035814 /* CCCameraAppUI.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCCameraAppUI.js; sourceTree = "<group>"; };
+		4AD7E7601454804E00035814 /* CCCameraBase.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCCameraBase.js; sourceTree = "<group>"; };
+		4AD7E7611454804E00035814 /* CCVectors.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CCVectors.js; sourceTree = "<group>"; };
+		4AD7E7631454804E00035814 /* glMatrix.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = glMatrix.js; sourceTree = "<group>"; };
+		4AD7E7641454804E00035814 /* http.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = http.js; sourceTree = "<group>"; };
+		4AD7E7651454804E00035814 /* tools.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tools.js; sourceTree = "<group>"; };
+		4AD7E7661454804E00035814 /* types.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = types.js; sourceTree = "<group>"; };
+		4AD7E7671454804E00035814 /* ui.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ui.js; sourceTree = "<group>"; };
+		4AD7E7691454804E00035814 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		4AD7E7C81454804E00035814 /* 8835701.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 8835701.txt; sourceTree = "<group>"; };
+		4AD7E7C91454804E00035814 /* me.friends copy.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "me.friends copy.txt"; sourceTree = "<group>"; };
+		4AD7E7CA1454804E00035814 /* me.friends.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = me.friends.txt; sourceTree = "<group>"; };
+		4AD7E7CB1454804E00035814 /* me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = me.txt; sourceTree = "<group>"; };
+		4AD7F0F41454805600035814 /* HelveticaNeueLight.data */ = {isa = PBXFileReference; lastKnownFileType = text; path = HelveticaNeueLight.data; sourceTree = "<group>"; };
+		4AD7F0F51454805600035814 /* HelveticaNeueLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelveticaNeueLight.png; sourceTree = "<group>"; };
+		4AD7F0F61454805600035814 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		4AD7F0F71454805600035814 /* profile_derp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_derp.png; sourceTree = "<group>"; };
+		4AD7F0F81454805600035814 /* profile_f7u12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_f7u12.png; sourceTree = "<group>"; };
+		4AD7F0F91454805600035814 /* profile_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_girl.png; sourceTree = "<group>"; };
+		4AD7F0FA1454805600035814 /* profile_grandma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_grandma.png; sourceTree = "<group>"; };
+		4AD7F0FB1454805600035814 /* profile_happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_happy.png; sourceTree = "<group>"; };
+		4AD7F0FC1454805600035814 /* profile_poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_poker.png; sourceTree = "<group>"; };
+		4AD7F0FD1454805600035814 /* profile_rich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_rich.png; sourceTree = "<group>"; };
+		4AD7F0FE1454805600035814 /* profile_troll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_troll.png; sourceTree = "<group>"; };
+		4AD7F1001454805600035814 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		4AD7F1031454805600035814 /* geoip.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = geoip.php; sourceTree = "<group>"; };
+		4AD7F1041454805600035814 /* statinfo.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = statinfo.php; sourceTree = "<group>"; };
+		4AD7F1051454805600035814 /* statslogger.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = statslogger.php; sourceTree = "<group>"; };
+		4AD7F1061454805600035814 /* tools.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = tools.php; sourceTree = "<group>"; };
+		4AD7F1081454805600035814 /* server.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = server.php; sourceTree = "<group>"; };
+		4AD7F10A1454805600035814 /* 11-09-13.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "11-09-13.htm"; sourceTree = "<group>"; };
+		4AD7F10B1454805600035814 /* 11-10-20.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "11-10-20.htm"; sourceTree = "<group>"; };
+		4AD7F10C1454805600035814 /* 11-10-21.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "11-10-21.htm"; sourceTree = "<group>"; };
+		4AD7F10D1454805600035814 /* 11-10-22.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "11-10-22.htm"; sourceTree = "<group>"; };
+		4AD7F10E1454805600035814 /* 11-10-23.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "11-10-23.htm"; sourceTree = "<group>"; };
+		4AD7F10F1454805600035814 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4AD7E7361454802900035814 = {
+			isa = PBXGroup;
+			children = (
+				4AD7E7421454804E00035814 /* source */,
+			);
+			sourceTree = "<group>";
+		};
+		4AD7E7421454804E00035814 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E7431454804E00035814 /* index.php */,
+				4AD7E7441454804E00035814 /* js */,
+				4AD7E7681454804E00035814 /* resources */,
+				4AD7F1011454805600035814 /* server */,
+				4AD7F10F1454805600035814 /* style.css */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		4AD7E7441454804E00035814 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E7451454804E00035814 /* app */,
+				4AD7E74C1454804E00035814 /* components.js */,
+				4AD7E74D1454804E00035814 /* engine */,
+				4AD7E7621454804E00035814 /* external */,
+				4AD7E7641454804E00035814 /* http.js */,
+				4AD7E7651454804E00035814 /* tools.js */,
+				4AD7E7661454804E00035814 /* types.js */,
+				4AD7E7671454804E00035814 /* ui.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		4AD7E7451454804E00035814 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E7461454804E00035814 /* CCAppEngine.js */,
+				4AD7E7471454804E00035814 /* SceneSocialBackground.js */,
+				4AD7E7481454804E00035814 /* SceneSocialFriends.js */,
+				4AD7E7491454804E00035814 /* SceneSocialLogin.js */,
+				4AD7E74A1454804E00035814 /* TileSocial.js */,
+				4AD7E74B1454804E00035814 /* TileSocialProfile.js */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		4AD7E74D1454804E00035814 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E74E1454804E00035814 /* CCEngine.js */,
+				4AD7E74F1454804E00035814 /* objects */,
+				4AD7E7531454804E00035814 /* rendering */,
+				4AD7E75B1454804E00035814 /* scenes */,
+				4AD7E75E1454804E00035814 /* tools */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		4AD7E74F1454804E00035814 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E7501454804E00035814 /* CCRenderable.js */,
+				4AD7E7511454804E00035814 /* CCTile3D.js */,
+				4AD7E7521454804E00035814 /* CCTile3DButton.js */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		4AD7E7531454804E00035814 /* rendering */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E7541454804E00035814 /* CCModelBase.js */,
+				4AD7E7551454804E00035814 /* CCModelText.js */,
+				4AD7E7561454804E00035814 /* CCPrimitiveBase.js */,
+				4AD7E7571454804E00035814 /* CCPrimitiveSquare.js */,
+				4AD7E7581454804E00035814 /* CCRenderer.js */,
+				4AD7E7591454804E00035814 /* CCTextureFontPageFile.js */,
+				4AD7E75A1454804E00035814 /* CCTextureManager.js */,
+			);
+			path = rendering;
+			sourceTree = "<group>";
+		};
+		4AD7E75B1454804E00035814 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E75C1454804E00035814 /* CCSceneAppUI.js */,
+				4AD7E75D1454804E00035814 /* CCSceneBase.js */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		4AD7E75E1454804E00035814 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E75F1454804E00035814 /* CCCameraAppUI.js */,
+				4AD7E7601454804E00035814 /* CCCameraBase.js */,
+				4AD7E7611454804E00035814 /* CCVectors.js */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		4AD7E7621454804E00035814 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E7631454804E00035814 /* glMatrix.js */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		4AD7E7681454804E00035814 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E7691454804E00035814 /* background.png */,
+				4AD7E76A1454804E00035814 /* cache */,
+				4AD7F0F31454805600035814 /* fonts */,
+				4AD7F0F61454805600035814 /* logout.png */,
+				4AD7F0F71454805600035814 /* profile_derp.png */,
+				4AD7F0F81454805600035814 /* profile_f7u12.png */,
+				4AD7F0F91454805600035814 /* profile_girl.png */,
+				4AD7F0FA1454805600035814 /* profile_grandma.png */,
+				4AD7F0FB1454805600035814 /* profile_happy.png */,
+				4AD7F0FC1454805600035814 /* profile_poker.png */,
+				4AD7F0FD1454805600035814 /* profile_rich.png */,
+				4AD7F0FE1454805600035814 /* profile_troll.png */,
+				4AD7F0FF1454805600035814 /* textures */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		4AD7E76A1454804E00035814 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E76B1454804E00035814 /* api */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		4AD7E76B1454804E00035814 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7E7C81454804E00035814 /* 8835701.txt */,
+				4AD7E7C91454804E00035814 /* me.friends copy.txt */,
+				4AD7E7CA1454804E00035814 /* me.friends.txt */,
+				4AD7E7CB1454804E00035814 /* me.txt */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		4AD7F0F31454805600035814 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7F0F41454805600035814 /* HelveticaNeueLight.data */,
+				4AD7F0F51454805600035814 /* HelveticaNeueLight.png */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		4AD7F0FF1454805600035814 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7F1001454805600035814 /* white.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		4AD7F1011454805600035814 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7F1021454805600035814 /* backend */,
+				4AD7F1071454805600035814 /* cache */,
+				4AD7F1081454805600035814 /* server.php */,
+				4AD7F1091454805600035814 /* stats */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		4AD7F1021454805600035814 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7F1031454805600035814 /* geoip.php */,
+				4AD7F1041454805600035814 /* statinfo.php */,
+				4AD7F1051454805600035814 /* statslogger.php */,
+				4AD7F1061454805600035814 /* tools.php */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		4AD7F1071454805600035814 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		4AD7F1091454805600035814 /* stats */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7F10A1454805600035814 /* 11-09-13.htm */,
+				4AD7F10B1454805600035814 /* 11-10-20.htm */,
+				4AD7F10C1454805600035814 /* 11-10-21.htm */,
+				4AD7F10D1454805600035814 /* 11-10-22.htm */,
+				4AD7F10E1454805600035814 /* 11-10-23.htm */,
+			);
+			path = stats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4AD7E7381454802900035814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4AD7E73B1454802900035814 /* Build configuration list for PBXProject "project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AD7E7361454802900035814;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4AD7E73D1454802900035814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4AD7E73E1454802900035814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AD7E73B1454802900035814 /* Build configuration list for PBXProject "project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD7E73D1454802900035814 /* Debug */,
+				4AD7E73E1454802900035814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AD7E7381454802900035814 /* Project object */;
+}
